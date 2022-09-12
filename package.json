@@ -1,0 +1,27 @@
+{
+  "name": "clean-architecure-folders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && jest ./dist",
+    "dev": "ts-node-dev src/infra/http/express.ts",
+    "build": "tsc",
+    "start": "node ./dist/src/infra/http/express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^29.0.1",
+    "@types/node": "^18.7.17",
+    "jest": "^29.0.3",
+    "ts-jest": "^29.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.3"
+  }
+}
